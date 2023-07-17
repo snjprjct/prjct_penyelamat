@@ -21,7 +21,7 @@
                         <div class="row">
                             <div class="col-xl-9 col-lg-10">
                                 <div class="slide-content">
-                                    <h1 style="font-size:120px">Delapan Photography</h1>
+                                    <h1 style="font-size:120px">Senjani Photography</h1>
                                     
                                     
                                 </div>
@@ -39,7 +39,7 @@
                         <div class="row">
                             <div class="col-xl-9 col-lg-10">
                                 <div class="slide-content">
-                                    <h1 style="font-size:120px">Delapan Photography</h1>
+                                    <h1 style="font-size:120px">Senjani Photography</h1>
                                  </div>
                             </div>
                         </div>
@@ -55,7 +55,7 @@
                         <div class="row">
                             <div class="col-xl-9 col-lg-10">
                                 <div class="slide-content">
-                                    <h1 style="font-size:120px">Delapan Photography</h1>
+                                    <h1 style="font-size:120px">Senjani Photography</h1>
                                  </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
             </div>
         </div>
         <!-- Dot - image -->
-        <div class="slider-nav text-center">
+        <!-- <div class="slider-nav text-center">
             <div class="slider-thumb">
                 <img src="{{ asset('storage/post-image/foto1.jpg') }}" style="width:100px" alt="">
             </div>
@@ -80,7 +80,7 @@
                 <img src="{{ asset('storage/post-image/foto4.jpg') }}" style="width:100px" alt="">
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Start slider -->
     
  <!--? Gallery Area Start -->
@@ -89,17 +89,17 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6">
                     <div class="section-tittle mb-50">
-                        <h2>With my camera, I capture daily life</h2>
+                        <h1>Senjani is a unique, elegant and simple vendor in the field of wedding photography, focused on you and your loved ones on that day, pure beauty will be created eternally in your moment.</h1>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <!-- <div class="col-lg-6">
                     <div class="section-tittle mb-60">
                         <p>Delapan Photography adalah perusahaan yang bergerak di bidang jasa fotografi, 
                             Delapan Photography didirikan oleh Ahmad Nizar pada awal tahun 2013 dengan 
                             tujuan memaksimalkan dan memberdayagunakan seluruh potensi dan kemampuan yang 
                             dimilikinya, yang lahir dari latar belakang dunia fotografi, dan telah memiliki 
                             pengalaman didalam fotografi, khususnya fotografi pernikahan serta fotografi studio.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="row justify-content-between">
@@ -120,27 +120,46 @@
               @endforeach
                 
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-btn text-center mt-50">
-                        <a href="/galery" class="border-btn">More Portfolio</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
     <!-- Gallery Area End -->
     <!--? All startups Start -->
-    <div class="all-starups-area fix">
+    <!-- <div class="all-starups-area fix"> -->
         <!-- left Contents -->
-        <div class="starups">
+        <!-- <div class="starups">
             <div class="starups-details">
                 <h3>I'm Ready to Exceed Expectations</h3>
                 <p>Bentuk angka DELAPAN yang seakan tidak akan ada putusnya. 
                     Bentuk yang tidak berujung ini diharapkan dapat membawa kesuksesan yang terus mengalir tanpa henti dan tidak berkesudahan.</p>
                 <a href="/profil" class="border-btn border-btn2">About Me</a>
             </div>
+        </div> -->
+        <!-- <div class="gallery-area section-padding40"> -->
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6">
+                    <!-- <div class="section-tittle mb-50">
+                        <h2>With my camera, I capture daily life</h2>
+                    </div> -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-tittle mb-50">
+                        <h1>Senjani is a unique, elegant and simple vendor in the field of wedding photography, focused on you and your loved ones on that day, pure beauty will be created eternally in your moment.</h1>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <div class="photos-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                <img src="{{ asset('rettro-main/assets/img/gallery/instra6.jpg')}}" alt="image" height="inherit" width="1170">
+                </div>
+            </div>
+        </div>
+    </div>
+
         <!--Right Contents  -->
         <div class="starups-img"></div>
     </div>
@@ -151,14 +170,14 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="section-tittle mb-60 text-center">
-                        <h2>Life is about Creating Experiences</h2>
+                        <h1>YOUR HAPPINESS IS OUR MISSION</h1>
                         <p></p>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-cat mb-50 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="single-cat mb-50 text-center wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
                         <div class="cat-icon">
                             <img src="{{ asset('rettro-main/assets/img/icon/services1.svg')}}" alt="">
                         </div>
@@ -168,7 +187,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-cat mb-50 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                    <div class="single-cat mb-50 text-center wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
                         <div class="cat-icon">
                             <img src="{{ asset('rettro-main/assets/img/icon/services2.svg')}}" alt="">
                         </div>
@@ -178,7 +197,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-cat mb-50 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                    <div class="single-cat mb-50 text-center wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
                         <div class="cat-icon">
                             <img src="{{ asset('rettro-main/assets/img/icon/services3.svg')}}" alt="">
                         </div>
@@ -188,7 +207,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-cat mb-50 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                    <div class="single-cat mb-50 text-center wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
                         <div class="cat-icon">
                             <img src="{{ asset('rettro-main/assets/img/icon/services4.svg')}}" alt="">
                         </div>
@@ -198,12 +217,31 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6">
+                    <!-- <div class="section-tittle mb-50"> -->
+                    <div class="section-btn text-center mb-50">
+                    <div class="single-cat mb-50 text-center wow fadeInUp" data-wow-duration="4s" data-wow-delay=".20s">
+                        <a href="/galery" class="border-btn border-btn2">Portfolio</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-btn text-center mb-50">
+                    <div class="single-cat mb-50 text-center wow fadeInUp" data-wow-duration="4s" data-wow-delay=".20s">
+                        <a href="/cek" class="border-btn border-btn2">Package</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
     <!--? Services Area End -->
     <!--? Testimonial Area Start -->
-   
-   
+
     <!-- Pricing Card End -->
     <!--? instagram-social start -->
     <div class="instagram-area fix">

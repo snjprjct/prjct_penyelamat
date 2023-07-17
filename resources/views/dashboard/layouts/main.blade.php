@@ -504,7 +504,7 @@
         <div class="wrapper2">
           <div class="abilan">
             <BR>
-            <B>DELAPAN FOTOGRAPHY</B>
+            <B>SENJANI PHOTOGRAPHY</B>
             <BR>
             <BR>
           </div>
@@ -607,15 +607,14 @@
       <div class="right-header">
         <div class="top-bar">
           <div class="top-bar-justify">
-            <div class="big-inbox">
+            <!-- <div class="big-inbox">
               Administrator
-            </div>
+            </div> -->
   
             <div class="top-bar-items">
               <div class="notif">
-                <div class="online pink">
-                </div>
-                <img src="https://i.ibb.co/VJm73Hz/notifications-button.png" />
+                <!-- <div class="online pink"> -->
+                <!-- <img src="https://i.ibb.co/VJm73Hz/notifications-button.png" /> -->
               </div>
               
             </div>

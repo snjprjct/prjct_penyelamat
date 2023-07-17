@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Photography | Template</title>
+    <title> Senjani Photography</title>
  
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('rettro-main/assets/img/favicon.ico')}}">
     
@@ -62,7 +62,7 @@
                               <li><a href="/">Home</a></li>
                               <li><a href="/profil">About</a></li>
                               <li><a href="/galery">Portfolio</a></li>
-                              <li><a href="/cek">Paket</a></li>
+                              <li><a href="/cek">Package</a></li>
                               @if(Auth::check()&& auth()->user()->level == "Customer")
                              {{--  <li><a href="/create">Pemesanan</a></li> --}}
                               <li><a href="/riwayat">Riwayat</a></li>
@@ -77,7 +77,7 @@
                                     </form>
                                 </li>
                                 @else
-                               <li> <a href="login-home">Login / Registrasi</a>  </li>
+                               <li> <a href="login-home">Login / Daftar</a>  </li>
                                 @endif
                         </ul>
                     </nav>
@@ -119,7 +119,7 @@
                                     <li><a href="/">Home</a></li>
                                     <li><a href="/profil">About</a></li>
                                     <li><a href="/galery">Portfolio</a></li>
-                                    <li><a href="/paket">Paket</a></li> 
+                                    <li><a href="/paket">Package</a></li> 
                                 </ul>
                             </nav>
                         </div>
@@ -142,7 +142,7 @@
                     <div class="col-xl-12 ">
                         <div class="footer-copy-right text-center">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> Delapan Photography</a>
+                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> Senjani Photography</a>
                               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                           </div>
                       </div>
