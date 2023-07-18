@@ -94,11 +94,7 @@
                 </div>
                 <!-- <div class="col-lg-6">
                     <div class="section-tittle mb-60">
-                        <p>Delapan Photography adalah perusahaan yang bergerak di bidang jasa fotografi, 
-                            Delapan Photography didirikan oleh Ahmad Nizar pada awal tahun 2013 dengan 
-                            tujuan memaksimalkan dan memberdayagunakan seluruh potensi dan kemampuan yang 
-                            dimilikinya, yang lahir dari latar belakang dunia fotografi, dan telah memiliki 
-                            pengalaman didalam fotografi, khususnya fotografi pernikahan serta fotografi studio.</p>
+                        <p>Senjani is a unique, elegant and simple vendor in the field of wedding photography, focused on you and your loved ones on that day, pure beauty will be created eternally in your moment.</p>
                     </div> -->
                 </div>
             </div>
@@ -129,8 +125,7 @@
         <!-- <div class="starups">
             <div class="starups-details">
                 <h3>I'm Ready to Exceed Expectations</h3>
-                <p>Bentuk angka DELAPAN yang seakan tidak akan ada putusnya. 
-                    Bentuk yang tidak berujung ini diharapkan dapat membawa kesuksesan yang terus mengalir tanpa henti dan tidak berkesudahan.</p>
+                <p>You Can't Stop Time Like The Twilight Sky. We Will Create Your Moment And That Of Your Loved Ones, Make A Beautiful Record That Is Timeless, Because The Eternal Moment Is Pure Beauty..</p>
                 <a href="/profil" class="border-btn border-btn2">About Me</a>
             </div>
         </div> -->
@@ -144,13 +139,13 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="section-tittle mb-50">
-                        <h1>Senjani is a unique, elegant and simple vendor in the field of wedding photography, focused on you and your loved ones on that day, pure beauty will be created eternally in your moment.</h1>
+                        <h1>You Can't Stop Time Like The Twilight Sky. We Will Create Your Moment And That Of Your Loved Ones, Make A Beautiful Record That Is Timeless, Because The Eternal Moment Is Pure Beauty.</h1>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="photos-area">
+        <div class="photos-area section-padding40">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -218,6 +213,7 @@
                 </div>
             </div>
         </div> -->
+        <div class="section-padding40">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6">
@@ -244,7 +240,7 @@
 
     <!-- Pricing Card End -->
     <!--? instagram-social start -->
-    <div class="instagram-area fix">
+    <div class="instagram-area fix section-padding40">
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-xl-12">

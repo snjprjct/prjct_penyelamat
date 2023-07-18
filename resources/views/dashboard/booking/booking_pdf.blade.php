@@ -18,7 +18,7 @@
 	<center>
 	<Br>
 		<h5>Laporan Booking</h4>
-		<h6>Delapan Photography</h6>
+		<h6>Senjani Photography</h6>
 
 		<Br>
 		<Br>

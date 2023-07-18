@@ -35,16 +35,11 @@
             </div>
             <div class="col-lg-6">
                 <div class="section-tittle mb-20">
-                    <p style="text-align: justify;">Delapan Photography adalah perusahaan yang bergerak di bidang jasa fotografi, 
-                        Delapan Photography didirikan oleh Ahmad Nizar pada awal tahun 2013 dengan 
-                        tujuan memaksimalkan dan memberdayagunakan seluruh potensi dan kemampuan yang 
-                        dimilikinya, yang lahir dari latar belakang dunia fotografi, dan telah memiliki 
-                        pengalaman didalam fotografi, khususnya fotografi pernikahan serta fotografi studio.
-                        
+                    <p style="text-align: justify;">Senjani is a unique, elegant and simple vendor in the field of wedding photography, focused on you and your loved ones on that day, pure beauty will be created eternally in your moment.</h1>
+                    
                         <br>
-                        <br>Bentuk angka DELAPAN yang seakan tidak akan ada putusnya. 
-                        Bentuk yang tidak berujung ini diharapkan dapat membawa kesuksesan yang terus mengalir tanpa henti dan tidak berkesudahan</p>
-                </div>
+                        <br>You Can't Stop Time Like The Twilight Sky. We Will Create Your Moment And That Of Your Loved Ones, Make A Beautiful Record That Is Timeless, Because The Eternal Moment Is Pure Beauty.
+                        </div>
             </div>
         </div>
     </div>
@@ -59,7 +54,7 @@
                 creative inspiration. Our culture is customer-centric to the core. 
                 We bring passion, responsiveness and first-hand experience to your creative 
                 challenges and deliver products that help you achieve your creative vision.</p>
-            <a target="_blank" href="https://wa.me/6282249568851?text=Hai, Saya Ingin Bertanya Seputar Delapan Photography" class="border-btn border-btn2">Hubungi Kami</a>
+            <a target="_blank" href="https://wa.me/62895611621628?text=Hai, Saya Ingin Bertanya Seputar Senjani Photography" class="border-btn border-btn2">Hubungi Kami</a>
         </div>
     </div>
     <!--Right Contents  -->

@@ -114,7 +114,7 @@ Konfirmasi Data booking
                 </div>
 
                
-               <?php $pesannya = "Halo, Dengan Studio Delapan... Ada yang ingin kami tanyakan seputar Pemesanan Studio Foto Anda :)" ; 
+               <?php $pesannya = "Halo, Dengan Studio Senjani... Ada yang ingin kami tanyakan seputar Pemesanan Studio Foto Anda :)" ; 
 
                 $telepon 	= $booking->customer->telepon; 
                     // $nomor= "89649341999";

@@ -552,7 +552,7 @@
             <div class="icon1">
               <img src="https://i.ibb.co/2yLfX9W/sent-mail.png" />
             </div>
-            <div class="icon-name">Paket</div>
+            <div class="icon-name">Package</div>
           </div>
           <div class="folder-icons"  onclick="location.href='{{ route('rekening.index') }}';">
             <div class="icon1">
@@ -561,7 +561,7 @@
             <div class="icon-name">Rekening</div>
           </div>
 
-          <div class="folders">Pemesanan</div>
+          <div class="folders">Orders</div>
           <div class="folder-icons"  onclick="location.href='{{ route('booking.index') }}';">
             <div class="icon1">
               <img src="https://i.ibb.co/z4QhcbD/email.png" />
@@ -581,7 +581,7 @@
             <div class="icon-name">Trash</div>
           </div> --}}
           <div class="folders">
-           Laporan
+           Invoices
           </div>
           <div class="folder-icons"  onclick="location.href='{{ route('booking.laporan-booking') }}';">
             <div class="icon1">
