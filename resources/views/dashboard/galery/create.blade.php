@@ -28,13 +28,7 @@ Tambah Menu
 
                 </div>
 
-                <div class="form-group">
-                    <label for="inputState">Kegiatan</label>
-
-                    <input name="kegiatan" value="{{ old('kegiatan')}}" id="kegiatan" placeholder="kegiatan" class="form-control">
-
-                </div>
-
+           
                 
 
 
@@ -45,7 +39,7 @@ Tambah Menu
 
                 <div class="form-group">
                     <label for="exampleInputPassword1">Keterangan</label>
-                    <textarea type="textarea" required value="{{ old('keterangan')}}" name="keterangan"
+                    <textarea type="textarea" required value="{{ old('kegiatan')}}" name="kegiatan"
                         class="form-control" id="keterangan" placeholder="Keterangan"></textarea>
                 </div>
 

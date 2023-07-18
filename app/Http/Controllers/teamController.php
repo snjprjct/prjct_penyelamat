@@ -143,8 +143,7 @@ class teamController extends Controller
             'alamat' => 'required',
             'tempat_lahir' => 'required',
             'tanggal_lahir' => 'required',
-            'posisi' => 'required',  
-            'foto' => 'file|max:2024'
+            'posisi' => 'required',   
         ];
           
          

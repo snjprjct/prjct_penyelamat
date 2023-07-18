@@ -11,6 +11,16 @@ use Illuminate\Support\Facades\Auth;
 
 class galeryController extends Controller
 {
+
+    public function galeryhome()
+    {
+        return view('galery',[
+            "id_galery"=>"galerynya",
+            "post"=> galery::all(),
+            "postper"=> galery::all(),
+            ]);
+
+    }
     public function index()
     {
         //dd(auth()->user()->level) ;
@@ -89,8 +99,7 @@ class galeryController extends Controller
         $validatedData = $request->validate([ 
             'judul' => 'required',
             'kegiatan' => 'required', 
-            'keterangan' => 'required', 
-            'foto' => 'required|file|max:2024', 
+            'keterangan' => 'required',  
         ]);
 
          if($request->file('foto')){
@@ -146,8 +155,7 @@ class galeryController extends Controller
         $rules = [ 
             'judul' => 'required',
             'kegiatan' => 'required',
-            'keterangan' => 'required',
-            'foto' => 'file|max:2024'
+            'keterangan' => 'required', 
         ];
           
          

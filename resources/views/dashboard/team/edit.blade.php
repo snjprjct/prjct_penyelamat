@@ -89,6 +89,7 @@ Edit Data Team
                 <div class="form-group">
                     <label for="exampleInputPassword1">Upload foto team</label>
                    <input type="hidden" name="oldImage" value="{{ $team->foto }}">
+                   
                     @if($team->foto)
                     <img src="{{ asset('storage/' . $team->foto) }}" class="img-preview img-fluid">
                    {{ $team->foto }}

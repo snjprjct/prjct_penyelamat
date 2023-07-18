@@ -61,7 +61,7 @@
                            <ul id="navigation">
                               <li><a href="/">Home</a></li>
                               <li><a href="/profil">About</a></li>
-                              <li><a href="/galery">Portfolio</a></li>
+                              <li><a href="/galery-home">Portfolio</a></li>
                               <li><a href="/cek">Package</a></li>
                               @if(Auth::check()&& auth()->user()->level == "Customer")
                              {{--  <li><a href="/create">Pemesanan</a></li> --}}

@@ -302,9 +302,9 @@
                                     @enderror
                                 </div>
 
-                                <input type="text" name="customer_id" value="{{ auth()->user()->customer->id  }}"
+                                <input type="hidden" name="customer_id" value="{{ auth()->user()->customer->id  }}"
                                     class="browser-default custom-select mb-4" id="select"> <br>
-                                <input type="text" name="status" hidden value="Menunggu Konfirmasi"
+                                <input type="hidden" name="status" hidden value="Menunggu Konfirmasi"
                                     class="browser-default custom-select mb-4" id="select"> <br>
 
 

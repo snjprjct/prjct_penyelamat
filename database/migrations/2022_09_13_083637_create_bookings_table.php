@@ -18,11 +18,11 @@ class CreateBookingsTable extends Migration
             $table->string('customer_id');
             $table->string('paket_id');
             $table->string('tgl_booking');
-            $table->string('jam_booking');
-            $table->string('jam_foto');
+            $table->string('jam_booking'); 
             $table->string('jam_selesai');
             $table->string('total');
             $table->string('bukti');
+            $table->string('catatan');
             $table->string('status');
             $table->timestamps();
         });

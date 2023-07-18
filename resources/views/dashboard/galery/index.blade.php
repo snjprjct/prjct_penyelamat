@@ -47,8 +47,7 @@ Data Galery
             <tr>
                 <th scope="col">No</th>
                 <th scope="col">Galery</th>
-                <th scope="col">Kegiatan</th>
-                <th scope="col">Keterangan</th>
+                <th scope="col">Kegiatan</th> 
                 <th scope="col">Aksi</th>
             </tr>
         </thead>
@@ -61,8 +60,7 @@ Data Galery
             <tr>
                 <th scope="row">{{$loop->iteration}}</th>
                 <td><a href="/galery/{{ $posta->id}}">{{ $posta->judul }}</a></td>
-                <td>{{ $posta->kegiatan }}</td>
-                <td>{{$posta->keterangan }}</td>
+                <td>{{ $posta->kegiatan }}</td> 
                 <td>
 
                     <a href="/galery/{{$posta->id}}/edit" role="button" class="new button">

@@ -134,6 +134,7 @@ Route::get('/admin', function () {
     
     
     //Galery 
+    Route::get('/galery-home', [galeryController::class, 'galeryhome'])->name('galeryhome');
     Route::resource('/galery', galeryController::class);
     Route::resource('/team', teamController::class);
     Route::get('/rekeningbayar', [rekeningController::class,'rekening'])->name('rekening.rekening');

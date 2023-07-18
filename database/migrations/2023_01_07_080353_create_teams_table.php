@@ -22,6 +22,8 @@ class CreateTeamsTable extends Migration
             $table->string('tempat_lahir'); 
             $table->string('tanggal_lahir'); 
             $table->string('posisi'); 
+            $table->string('foto'); 
+
 
             $table->timestamps();
         });
