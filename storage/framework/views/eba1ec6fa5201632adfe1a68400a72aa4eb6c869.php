@@ -84,12 +84,14 @@
     background: #ffffff;
     display: inline-block;
     margin: 8px;
-    max-width: 300px;
+    max-height: 400px;
+    max-width: 500px;
     perspective: 1000;
     position: relative;
     text-align: left;
     transition: all 0.3s 0s ease-in;
-    width: 300px;
+    height: relative;
+    width: relative;
     z-index: 1;
     }
     div.card img {
@@ -208,50 +210,36 @@
 
 </style>
 
-<div class="container" style="margin-top:2%; margin-bottom:5%">
+<div class="container" style="margin-top:2%; margin-bottom:22%">
      
-   <CENTER> <h1 style="font-size:5.5rem">Gallery Foto</h1></CENTER>
+   <CENTER> <h1 style="font-size:5.5rem">Gallery</h1></CENTER>
    <bR>
  
-    
+   <div class="cards">
 
-    <div class="cards">
+              <?php $__currentLoopData = $post; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $posta): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 
-        <?php $__currentLoopData = $post; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $posta): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-        <div class="card">
-          <div class="card__image-holder">
-            <img class="card__image" src="<?php echo e(asset('storage/' . $posta->foto)); ?>" style="height:270px;width:100%" alt="wave" />
-          </div>
-          <div class="card-title">
-             
-            <h2>
-               <h3><?php echo e($posta->judul); ?></h3>
-              <small><?php echo e($posta->kegiatan); ?></small>
-            </h2>
-          </div>
-          <div class="card-flap flap1">
-            <div class="card-description">
-                <?php echo e($posta->keterangan); ?>
+              <div class="card">
+                <div class="card__image-holder">
 
-            </div>
-            
-          </div>
+                    <img class="card__image" src="<?php echo e(asset('storage/' . $posta->foto)); ?>" style="height:400px;width:100%" alt="" ></div>
+                    <div class="box snake">    
+                    <div class="overlay">
+                    
+                            <div class="overlay-content mb-30">
+                            <div class="fix section-padding">
+                                <a href="<?php echo e(asset('storage/' . $posta->foto)); ?>" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+                            </div>
+                        </div>
+                      
+                  </div>
+                </div>
+              </div>
+              <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?> 
         </div>
-        
+    </div>
+  </div>
 
-        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-       
-       
-      
-      </div>
-
-
-         
-
- 
-     
-</div>
-    
    
     <?php $__env->stopSection(); ?>
 

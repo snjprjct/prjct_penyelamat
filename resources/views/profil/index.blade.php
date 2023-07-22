@@ -14,7 +14,8 @@
         <div class="row justify-content-center">
             <div class="col-xl-8 col-lg-11 col-md-12">
                 <div class="hero__caption hero__caption2 text-center">
-                    <h2>Profil</h2>
+                    <h2>Our Team</h2>
+                    <p style="color:#ffffff">Ayo Bertemu dengan Team Kami.</p>
                 </div>
             </div>
         </div>
@@ -65,14 +66,14 @@
 <!--? Services Area Start -->
 <div class="categories-area section-padding40">
     <div class="container">
-        <div class="row justify-content-center">
+        <!-- <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="section-tittle mb-60 text-center">
                     <h2>Our Team</h2>
                     <p>Ayo Bertemu dengan Team Kami.</p>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="row">
             @foreach($team as $team)
             <div class="col-lg-3 col-md-6 col-sm-6">
@@ -83,7 +84,7 @@
                     </div>
                     <div class="cat-cap">
                         <h5>{{ $team->nama }}</h5>
-                        <p><b>{{ $team->posisi }}</b></p>
+                        <p><b style="color:#00bbff">{{ $team->posisi }}</b></p>
                     </div>
                 </div>
             </div>

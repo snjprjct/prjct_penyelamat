@@ -107,7 +107,7 @@
   .form-group input {
     outline: none;
     display: block;
-    background: rgba(0, 0, 0, 0.1);
+    background: #eaf2ce;
     width: 100%;
     border: 0;
     border-radius: 4px;
@@ -121,7 +121,7 @@
     transition: 0.3s ease;
   }
   .form-group input:focus {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.6);
   }
   .two .form-group input {
     color: #FFFFFF;
@@ -131,7 +131,7 @@
   }
   .form-group button {
     outline: none;
-    background: #4285F4;
+    background: #646856;
     width: 100%;
     border: 0;
     border-radius: 4px;
@@ -146,7 +146,7 @@
   }
   .two .form-group button {
     background: #FFFFFF;
-    color: #4285F4;
+    color: #b5bc9a;
   }
   .form-group .form-remember {
     font-size: 12px;
@@ -185,7 +185,7 @@
     position: absolute;
     top: 0;
     left: 95%;
-    background: #4285F4;
+    background: #b5bc9a;
     width: 100%;
     min-height: 100%;
     padding: 60px calc(10% + 60px) 60px 60px;
@@ -226,7 +226,7 @@
   }
   .form-header h1 {
     padding: 4px 0;
-    color: #4285F4;
+    color: #7d826b;
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;

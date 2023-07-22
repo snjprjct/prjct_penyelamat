@@ -23,7 +23,7 @@
     min-height: 930px;
     display: block;
     position: relative;
-    background: #333333;
+    background: #b5bc9a;
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -156,7 +156,7 @@
     color: #BBBBBB;
     }
     .ticket-card .price .value {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 200;
     color: #00bbff;
     margin-top: -5px;
@@ -242,7 +242,7 @@
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #666666;
+    color: #071112;
     box-shadow: none;
     }
     .ticket-card .footer .btn:focus, .ticket-card .footer .btn:hover, .ticket-card .footer .btn:active {
@@ -253,7 +253,7 @@
  
     <div class="wrapper">
       <div class="container">
-        <h2 class="page-title">Paket Foto</h2>
+        <h2 class="page-title section-padding">Package</h2>
         <div class="row">
 
             @foreach ($post as $paket)
@@ -273,7 +273,7 @@
                 <div class="price">
                   <div class="from"></div>
                   <div class="value">
-                    @currency($paket->harga)
+                    <strong>@currency($paket->harga)</strong>
                   </div>
                 </div>
   
@@ -336,9 +336,9 @@
               </div>
               <div class="footer">
                 @if(Auth::guest()==true):
-                  <button class="btn toggle-tickets" onclick="location.href='/login-home'" >Cek Sekarang</button>
+                  <button class="btn toggle-tickets" style="font-size:16px;" onclick="location.href='/login-home'" ><strong>Cek Sekarang</strong></button>
                 @else:
-                <button class="btn toggle-tickets" onclick="location.href='/create?idp={{ $paket->id }}'" >Cek Sekarang</button>
+                <button class="btn toggle-tickets" onclick="location.href='/create?idp={{ $paket->id }}'" ><strong>Cek Sekarang</strong></button>
                 @endif
               </div>
             </div>

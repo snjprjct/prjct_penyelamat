@@ -84,12 +84,14 @@
     background: #ffffff;
     display: inline-block;
     margin: 8px;
-    max-width: 300px;
+    max-height: 400px;
+    max-width: 500px;
     perspective: 1000;
     position: relative;
     text-align: left;
     transition: all 0.3s 0s ease-in;
-    width: 300px;
+    height: relative;
+    width: relative;
     z-index: 1;
     }
     div.card img {
@@ -208,49 +210,36 @@
 
 </style>
 
-<div class="container" style="margin-top:2%; margin-bottom:5%">
+<div class="container" style="margin-top:2%; margin-bottom:22%">
      
-   <CENTER> <h1 style="font-size:5.5rem">Gallery Foto</h1></CENTER>
+   <CENTER> <h1 style="font-size:5.5rem">Gallery</h1></CENTER>
    <bR>
  
-    
+   <div class="cards">
 
-    <div class="cards">
+              @foreach ($post as $posta)
 
-        @foreach($post as $posta)
-        <div class="card">
-          <div class="card__image-holder">
-            <img class="card__image" src="{{ asset('storage/' . $posta->foto) }}" style="height:270px;width:100%" alt="wave" />
-          </div>
-          <div class="card-title">
-             
-            <h2>
-               <h3>{{ $posta->judul}}</h3>
-              <small>{{ $posta->kegiatan}}</small>
-            </h2>
-          </div>
-          <div class="card-flap flap1">
-            <div class="card-description">
-                {{ $posta->keterangan}}
-            </div>
-            
-          </div>
+              <div class="card">
+                <div class="card__image-holder">
+
+                    <img class="card__image" src="{{ asset('storage/' . $posta->foto) }}" style="height:400px;width:100%" alt="" ></div>
+                    <div class="box snake">    
+                    <div class="overlay">
+                    
+                            <div class="overlay-content mb-30">
+                            <div class="fix section-padding">
+                                <a href="{{ asset('storage/' . $posta->foto) }}" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+                            </div>
+                        </div>
+                      
+                  </div>
+                </div>
+              </div>
+              @endforeach 
         </div>
-        
+    </div>
+  </div>
 
-        @endforeach
-       
-       
-      
-      </div>
-
-
-         
-
- 
-     
-</div>
-    
    {{--  <div class="d-flex center-content-end">{{ $post->links() }} </div>
  --}}
     @endsection

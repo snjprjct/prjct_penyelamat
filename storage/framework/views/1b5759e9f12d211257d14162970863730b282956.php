@@ -60,8 +60,8 @@
                           <nav class="hamburger-menu">
                            <ul id="navigation">
                               <li><a href="/">Home</a></li>
-                              <li><a href="/profil">About</a></li>
-                              <li><a href="/galery-home">Portfolio</a></li>
+                              <li><a href="/profil">Team</a></li>
+                              <li><a href="/galery-home">Gallery</a></li>
                               <li><a href="/cek">Package</a></li>
                               <?php if(Auth::check()&& auth()->user()->level == "Customer"): ?>
                              

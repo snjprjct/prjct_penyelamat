@@ -21,7 +21,7 @@
                         <div class="row">
                             <div class="col-xl-9 col-lg-10">
                                 <div class="slide-content">
-                                    <h1 style="font-size:120px">Senjani Photography</h1>
+                                    <h1 style="font-size:100px">Senjani Photography.</h1>
                                     
                                     
                                 </div>
@@ -98,26 +98,36 @@
                     </div> -->
                 </div>
             </div>
+            
+            <div class="photos-area section-padding40">
+        <div class="container">
             <div class="row justify-content-between">
+                <div class="col-xl-12">
+                <img src="{{ asset('rettro-main/assets/img/gallery/instra7.jpg')}}" alt="image" height="400" width="inherit">
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!-- <div class="row justify-content-between">
               @foreach ($menu as $galery )
                   
-             
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 section-padding40">
                     <div class="box snake mb-30">
                         <div class="gallery-img small-img " style="background-image: url({{ asset('storage/' . $galery->foto) }});"></div>
                         <figcaption>{{ $galery->judul }}</figcaption>
                         <div class="overlay">
                             <div class="overlay-content">
-                                <a href="{{ asset('storage/' . $galery->foto) }}" class="img-pop-up"><i class="ti-plus"></i></a>
+                                <a href="{{ asset('storage/' . $galery->foto) }}" class="img-pop-up"><i class="ti-zoom-in"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
               @endforeach
-                
+            </div>    
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Gallery Area End -->
     <!--? All startups Start -->
     <!-- <div class="all-starups-area fix"> -->
@@ -139,7 +149,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="section-tittle mb-50">
-                        <h1>You Can't Stop Time Like The Twilight Sky. We Will Create Your Moment And That Of Your Loved Ones, Make A Beautiful Record That Is Timeless, Because The Eternal Moment Is Pure Beauty.</h1>
+                        <h1>You can't stop time like the twilight sky. We will create your moment and that of your loved ones, make a beautiful record that is timeless, because the eternal moment is pure beauty.</h1>
                     </div>
                 </div>
             </div>
